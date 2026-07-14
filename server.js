@@ -18,7 +18,8 @@ connectDB()
 
 //cors config
 const allowedOrigins = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+     'https://idea-drop-ui-drab-five.vercel.app'
 ]
 
 app.use(cors({
